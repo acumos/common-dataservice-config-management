@@ -1,0 +1,28 @@
+[APP_SETTINGS]
+APP_ENV = dev
+
+data:
+acumos_E5_base_path: <acumos instance base path>
+acumos_E5_cert_file: <path of acumos.crt>
+acumos_E5_private_key_file: <path of acumos.key>
+acumos_E5_solution_path: /solutions
+acumos_E5_revision_path: /solutions/{solutionId}/revisions
+acumos_E5_artifact_path: /solutions/{solutionId}/revisions/{revisionId}/artifacts
+acumos_E5_ping_path: /ping
+acumos_E5_docker_url_file_name: artifact.json
+acumos_E5_model_path: /tmp/
+verify_ssl: ""
+acumos_user_id:dummy
+
+[RESPONSES]
+error_prefix = ACUM
+
+[DATABASE]
+mongo_hostname = localhost
+mongo_port = 27017
+mongo_username = dummy
+mongo_password = dummy
+mongo_dbname = DUMMY_DB
+
+[SERVER]
+server_port = 8090
