@@ -1,0 +1,366 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "47c766a0_395a6130",
+        "filename": "INFO.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Is Bryan Sullivan really the PTL for this project?  Is Abishek really the only committer?",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 25
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6c50889b_3e471134",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "I was told we were trying to avoid use of this acronym in the open-source code, is that still the guidance?",
+      "range": {
+        "startLine": 6,
+        "startChar": 5,
+        "endLine": 6,
+        "endChar": 9
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0ebde81_8d6e94a4",
+        "filename": "acumosintegrationservice/__init__.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Other python projects seem to use (0, 1, 0) in other words a tuple instead of a string, please check the best practice here.",
+      "range": {
+        "startLine": 19,
+        "startChar": 11,
+        "endLine": 19,
+        "endChar": 18
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7138b47b_2c83f93e",
+        "filename": "acumosintegrationservice/api/__init__.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Probably should have license header",
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78c38770_5c23ed50",
+        "filename": "acumosintegrationservice/api/acumos_e5_api.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Might want to avoid encoding ATT UID strings in so many places, AT\u0026T in the past has strenuously advised against exposing those in open-source projects",
+      "range": {
+        "startLine": 60,
+        "startChar": 7,
+        "endLine": 60,
+        "endChar": 13
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bffc0da2_d8c092c5",
+        "filename": "acumosintegrationservice/api/business.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Maybe these repeated string config keys could be defined as constants somewhere and ensure no typos ever sneak in?",
+      "range": {
+        "startLine": 86,
+        "startChar": 64,
+        "endLine": 86,
+        "endChar": 87
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5170c67_b4299c97",
+        "filename": "acumosintegrationservice/api/business.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "See above",
+      "range": {
+        "startLine": 127,
+        "startChar": 68,
+        "endLine": 127,
+        "endChar": 91
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f2f33618_d0d74299",
+        "filename": "acumosintegrationservice/api/restplus.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "I was told we should avoid this cmlp acronym?",
+      "range": {
+        "startLine": 23,
+        "startChar": 26,
+        "endLine": 23,
+        "endChar": 30
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "34bd7028_61dc2ef0",
+        "filename": "acumosintegrationservice/api/restplus.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "See above",
+      "range": {
+        "startLine": 31,
+        "startChar": 40,
+        "endLine": 31,
+        "endChar": 44
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ec4e6889_3c9c5ba3",
+        "filename": "acumosintegrationservice/api/serializers.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Please avoid use of valid AT\u0026T host names in open-source code",
+      "range": {
+        "startLine": 25,
+        "startChar": 39,
+        "endLine": 25,
+        "endChar": 76
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d13a918d_cec3a0e5",
+        "filename": "acumosintegrationservice/app.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Maybe the port number should be configurable?",
+      "range": {
+        "startLine": 35,
+        "startChar": 45,
+        "endLine": 35,
+        "endChar": 49
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "101fb113_50d2c197",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "I would omit the words Acumos and Python",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 6
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c54621f5_dc6e4de7",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "what is your recommended minimum Python version?  3.4?",
+      "range": {
+        "startLine": 49,
+        "startChar": 13,
+        "endLine": 49,
+        "endChar": 17
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e7bc5412_f3e46839",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Can omit Acumos",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 6
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "efd1430f_3b62a9cd",
+        "filename": "properties/settings.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "Please avoid all username and password strings in committed files",
+      "range": {
+        "startLine": 32,
+        "startChar": 17,
+        "endLine": 32,
+        "endChar": 26
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "835940a0_9a615478",
+        "filename": "properties/settings.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-03T20:53:03Z",
+      "side": 1,
+      "message": "I\u0027m told to avoid the CMLP acronym?",
+      "range": {
+        "startLine": 34,
+        "startChar": 15,
+        "endLine": 34,
+        "endChar": 22
+      },
+      "revId": "4ab4ca7be155ff38fa4b62d907d3de5c1e226de9",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
