@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+acumos_marketplace_integration_service.egg-info/
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# PyBuilder
+target/
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# Rope project settings
+.ropeproject
+
+# vim
+*.swp
+*.swo
+
+# PyCharm, IntelliJ, etc
+.idea/
+
+# ctags
+tags
