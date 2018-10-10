@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3817858_dc92a19e",
+        "filename": "acumosintegrationservice/__init__.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-10-10T18:08:24Z",
+      "side": 1,
+      "message": "This needs to build a version string with \".\".join(_VERSION).  Probably best to ask Ryan Hull for guidance on managing versions in Python projects, he just finished setting this up several times.",
+      "range": {
+        "startLine": 25,
+        "startChar": 11,
+        "endLine": 25,
+        "endChar": 19
+      },
+      "revId": "287f618759b5c894cb098c477dedeb4d5ef0a9f0",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
