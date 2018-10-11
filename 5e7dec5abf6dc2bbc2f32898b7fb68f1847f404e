@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "81d33b29_e6f63a02",
+        "filename": "acumosintegrationservice/api/v2/endpoints.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-11T22:04:05Z",
+      "side": 1,
+      "message": "I think you can remove this guy",
+      "revId": "5e7dec5abf6dc2bbc2f32898b7fb68f1847f404e",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cdeedfe0_a13df0ce",
+        "filename": "acumosintegrationservice/app.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-11T22:04:05Z",
+      "side": 1,
+      "message": "I think you\u0027d want to also add run.py like all the other services have",
+      "revId": "5e7dec5abf6dc2bbc2f32898b7fb68f1847f404e",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "963c832b_34910c24",
+        "filename": "setup.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-11T22:04:05Z",
+      "side": 1,
+      "message": "I think this should be 3.5",
+      "revId": "5e7dec5abf6dc2bbc2f32898b7fb68f1847f404e",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f8cbdefa_f277fee4",
+        "filename": "test/unit_test/test_flask_pytest.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-11T22:04:05Z",
+      "side": 1,
+      "message": "I think we\u0027d want a test for each endpoint right?",
+      "revId": "5e7dec5abf6dc2bbc2f32898b7fb68f1847f404e",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
