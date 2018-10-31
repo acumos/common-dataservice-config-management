@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fd699082_c44be0eb",
+        "filename": "test/unit_test/test_flask_pytest.py",
+        "patchSetId": 19
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "So it seems that this is stubbing the actual base call versus stubbing logic than can\u0027t be tested (external servicees) inside the service.   To me this is more dangerous than excluding test cases as people may assume your tests are validating your service and in fact nothing is tested.",
+      "revId": "8677606b2286d5bb34eff8af5131f6654b727e79",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
