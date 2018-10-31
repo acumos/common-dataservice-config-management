@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f49ddb2_844fc4fe",
+        "filename": "acumosintegrationservice/__init__.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "I think this file needs from ._version import __version__  # noqa",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "edb67c10_30363f9f",
+        "filename": "acumosintegrationservice/api/business.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "Really should be using this type of temp file..   https://gerrit.acumos.org/r/gitweb?p\u003dmodel-runner/h2o-model-runner.git;a\u003dblob_plain;f\u003dpredictor/h2o_ml/wrapper.py;hb\u003d88b1edff609c60ef7dfce304ae1c8e2b94a811c2\n\nSee how it opens it then removes it",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6b911928_afcd91c8",
+        "filename": "acumosintegrationservice/api/serializers.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we use camel case naming convention?",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "84417b99_f951746b",
+        "filename": "acumosintegrationservice/api/v2/endpoints.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "This does not follow rest standards of /\u003cresource\u003e  you have 2 resources together",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a9846f34_3a7c1821",
+        "filename": "docs/developer-guide.rst",
+        "patchSetId": 21
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "I think they wanted us to add more to this guy",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8c94265e_52732308",
+        "filename": "pom.xml",
+        "patchSetId": 21
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "THis pom is missing stuff see https://gerrit.acumos.org/r/gitweb?p\u003dmodel-runner/h2o-model-runner.git;a\u003dblob;f\u003dpom.xml;h\u003d3fa1a5191cca282834fd04d58e2f353b37a6c63a;hb\u003d88b1edff609c60ef7dfce304ae1c8e2b94a811c2",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58bb9314_9288318b",
+        "filename": "setup.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "Recommend getting ride of 3.4",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "09645434_99cac6d8",
+        "filename": "test/unit_test/test_flask_pytest.py",
+        "patchSetId": 21
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2018-10-31T15:45:33Z",
+      "side": 1,
+      "message": "Personally i think this is more dangerous than not having test cases as this level of mocking doesn\u0027t test anything unless you look close and realize its mocking the method itself...  I mentioned this to Abhishek? who was working on it before...",
+      "revId": "19bb3bc08639663ebe6484073555c95576432447",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
