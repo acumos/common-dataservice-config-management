@@ -1,3 +1,4 @@
 # UUID                                                                                                 	Group Name
 #
+82672fa0546fa8d3aba40e02bb26db3a1753ca43                                                               	saml/acumos-gerrit-common-dataservice-config-management-committers
 ldap:cn=acumos-gerrit-common-dataservice-config-management-committers,ou=Groups,dc=freestandards,dc=org	ldap/acumos-gerrit-common-dataservice-config-management-committers
